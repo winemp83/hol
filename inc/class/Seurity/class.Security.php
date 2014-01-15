@@ -14,4 +14,16 @@ class Security {
             return true;
         }
     }
+    
+    public static function isLogin(){
+        if(isset($_SESSION['LOGIN'])){
+            $checkTime = time();
+            if($_SESSION['aktivetime'] > $checkTime){
+                $_SESSION['aktivetime'] = (time()+(60*5));
+                return true;}
+            else{session_destroy();
+                return false;}
+        }
+        else{return false;}
+    }
 }
