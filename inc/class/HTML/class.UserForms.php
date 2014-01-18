@@ -1,12 +1,12 @@
 <?php
-namespace System;
+namespace System\HTML;
 
 class UserForms{
     public function printLoginForm($checkScript = null){
-        $data = '<fieldset style="padding:2px;width:180px;border:1px solid #85BBEF;">
+        $data = '<fieldset style="padding:2px;width:210px;border:1px solid #85BBEF;">
                 <legend>Login</legend><form id="noSpaces" action="'.$checkScript.'" method="post">
                 Login: <br />
-                <input type="text" class="standartField" name="login" size="30" maxlength="100"><br />
+                <input type="text" class="standartField" name="login" size="29" maxlength="100"><br />
                 Password: <br />
                 <input type="password" class="standartField" name="password" size="30" maxlength="100"><br />
                 <input type="submit" onfocus="blur();" class="standartSubmit" name="doLogin" value="Anmelden">
