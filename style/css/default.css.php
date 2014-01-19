@@ -1,8 +1,108 @@
 <?php
+header("Content-Type: text/css");
+?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+body{
+    background: #424242;
+    overflow:hidden;
+}
+#Content{
+    border-radius:10px;
+    padding: 5px;
+    background:silver;
+    height:75%;
+    border:groove;
+}
+#info{
+    color:#7CFC00;
+    overflow-style:marquee,panner;
+    overflow:auto;
+    height:240px;
+    width:400px;
+    display:block;
+}
+#news_title{
+    width:400px;
+    text-align:center;
+}
+#news_time{
+    width:380px;
+    text-align:right;
+}
+#news_content{
+    width:380px;
+    text-align:left;
+}
+#news{
+    color:#7CFC00;
+    overflow-style:marquee,panner;
+    overflow:auto;
+    height:250px;
+    width:400px;
+    display:block;
+}
+#Menue{
+    background:url('http://hol.spaceoflegends.de/hol/style/img/menue_bg.png');
+    height:40px;
+    text-align:center;
+}
+#Header{
+    color:gold;
+    font-weight:bold;
+    height:75px;
+    width:100%;
+    text-shadow: #000 3px 3px 5px;
+    text-align:center;
+}
+table#nav{
+    height:40px;
+    vertical-align:middle;
+}
 
+td#nav{
+    border-style:groove;
+    background:
+    url('http://hol.spaceoflegends.de/hol/style/img/table_menue.png');
+    text-align: center;
+    width:100px;
+}
+
+td#nav:hover{
+    border-style:groove;
+    background:
+    url('http://hol.spaceoflegends.de/hol/style/img/table_menue_hover_2.png');
+    text-align: center;
+    width:100px;
+    color:gold;
+}
+a, visit{
+    text-decoration:none;
+    color: #000;
+}
+a:hover{
+    color:gold;
+}
+input.standartField{
+    box-shadow: 2px 2px 2px darkgrey;
+    background-image:url(http://hol.spaceoflegends.de/hol/style/img/table_menue_hover_4.png);
+    background-color:transparent;
+    color:black;
+    text-shadow: 2px 2px 2px gold;
+    width: 215px;
+}
+input.standartSubmit{
+    background: 
+    url('http://hol.spaceoflegends.de/hol/style/img/table_menue_hover.png') 
+    top left;
+    background-color: transparent;
+    border: none;
+    color:black;
+}
+input.standartSubmit:hover{
+    background: 
+    url('http://hol.spaceoflegends.de/hol/style/img/table_menue_hover_2.png') 
+    top left;
+    background-color: transparent;
+    border: none;
+    color:gold;
+}

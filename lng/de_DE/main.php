@@ -5,7 +5,7 @@ define('start', "Start");
 
 //MENUE OUTGAME
 define('LNG_HOME', "Home");
-define('LNG_REGISTER', "Regestrieren");
+define('LNG_REGISTER', "Registrieren");
 define('LNG_LOGIN', "Login");
 define('LNG_INFO', "Informationen");
 define('LNG_NEWS', "Neuigkeiten");

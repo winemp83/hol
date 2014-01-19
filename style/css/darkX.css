@@ -86,18 +86,19 @@
 	float:left;
 	height:14px;
 	font-size:12px;
-	text-align:center;
+	text-align:left;
 	margin-top:2px;
 	width:100%;
 	color:#FFF;
 }
 
 .darkX_content {
-	overflow:auto;
-	color: #E6DF2A;
+	overflow:hidden;
+	color: #7CFC00;
 	font-family: Tahoma, Arial, sans-serif;
 	font-size: 14px;
-	background:#5E5148;
+	background:#000;
+        overflow-style:marquee,panner;
 }
 
 
