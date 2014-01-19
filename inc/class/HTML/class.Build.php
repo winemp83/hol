@@ -66,10 +66,10 @@ class BuildSite{
         }
     }
     private function login(){
-        $this->UserForms->printLoginForm();
+        $this->UserForms->printLoginForm("game.php");
     }
     private function register(){
-        $this->UserForms->printRegisterForm();
+        $this->UserForms->printRegisterForm("register.php");
     }
     
     private function info(){

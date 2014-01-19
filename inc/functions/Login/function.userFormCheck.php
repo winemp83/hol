@@ -9,7 +9,7 @@ class UserFormCheck{
         $password = trim(substr($_POST['password'],0,100));
         foreach($result as $combi){
             if($login === $combi['login'] && md5($password) === $combi['password']){
-                $_SESSION['login'] = md5(true);
+                $_SESSION['login'] = $login;
                 $_SESSION['aktivetime'] = (time()+(60*5));
                 return true;
             }

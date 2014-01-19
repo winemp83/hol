@@ -29,7 +29,7 @@ class Navigation{
     private function menueIn(){
         $data = '<center>'.\System\HTML::addScript("in").
                 '<table id="nav"><tr>'.
-                '<td id="nav"><a href="index.php" >'.LNG_HOME.'</a></td>'.
+                '<td id="nav"><a href="game.php" >'.LNG_HOME.'</a></td>'.
                 '<td id="nav"><a href="#" onClick="javascript:In1();">'.LNG_LOGOUT.'</a></td>'.
                 '<td id="nav"><a href="#" onClick="javascript:In2();">'.LNG_BUILD.'</a></td>'.
                 '<td id="nav"><a href="#" onClick="javascript:In3();">'.LNG_MARKT.'</a></td>'.
