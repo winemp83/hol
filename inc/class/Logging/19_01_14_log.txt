@@ -5,3 +5,4 @@ INFO::19_01_14 22:59:13 - Error Code :1 - Error Message : Unberechtigter Aufruf!
 INFO::19_01_14 22:59:19 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
 INFO::19_01_14 22:59:49 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
 INFO::19_01_14 23:05:26 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/adm.php
+INFO::19_01_14 23:08:16 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/adm.php

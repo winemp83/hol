@@ -1,0 +1,8 @@
+INFO::29_01_14 10:18:56 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+INFO::29_01_14 10:48:20 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+INFO::29_01_14 10:57:23 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+WARN::29_01_14 11:07:35 - Ein Spieler hat sich ausgelogt! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::29_01_14 11:37:33 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+WARN::29_01_14 13:11:33 - Ein Spieler hat sich ausgelogt! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::29_01_14 13:13:14 - Error Code :100 - Error Message : Falsche Login Daten - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+WARN::29_01_14 13:13:56 - Ein Spieler hat sich ausgelogt! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php

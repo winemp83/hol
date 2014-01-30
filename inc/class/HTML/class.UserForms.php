@@ -30,13 +30,4 @@ class UserForms{
                 </form></fieldset>';
         echo $data;
     }
-    public function printLogoutForm($checkScript = null){
-        $data = '<fieldset style="padding:2px;width:180px;border:1px solid #85BBEF;">
-                <legend>Logout</legend><form id="noSpaces" action="'.$checkScript.'" method="post">
-                <input type="hidden" class="standartField" name="logout" value="true"><br />
-                <input type="submit" onfocus="blur();" class="standartSubmit" name="doLogout" value="Logout">
-                <input type="reset" onfocus="blur();" class="standartSubmit" name="doReset" value="Löschen">
-                </form></fieldset>';
-        echo $data;
-    }
 }

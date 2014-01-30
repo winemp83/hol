@@ -21,7 +21,7 @@ class Security {
             if($_SESSION['aktivetime'] > $checkTime){
                 $USER = new \System\Daten\User($_SESSION['login']);
                 $_SESSION['aktivetime'] = (time()+(60*5));
-                $_SESSION[1] = $USER->user;
+                $_SESSION['data'] = $USER->user;
                 return true;}
             else{session_destroy();
                 return false;}

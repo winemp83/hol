@@ -1,0 +1,12 @@
+INFO::30_01_14 11:37:36 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+WARN::30_01_14 11:38:05 - Ein Spieler hat sich ausgelogt! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 11:57:23 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+INFO::30_01_14 12:16:31 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:17:06 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:17:55 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:31:05 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php
+INFO::30_01_14 12:31:22 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:35:24 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:36:39 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 12:36:54 - Error Code :1 - Error Message : Unberechtigter Aufruf! - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/ajax.php
+INFO::30_01_14 13:38:01 - Error Code :101 - Error Message : Session abgelaufen - /var/www/vhosts/spaceoflegends.de/hol.spaceoflegends.de/hol/game.php

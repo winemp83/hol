@@ -1,7 +1,7 @@
 <?php
 namespace Database;
 
-class MySQL{
+class MySQL extends \mysqli{
     public $MySQLiObj = null;
     public $lastSQLQuery = null;
     public $lastSQLStatus = null;
