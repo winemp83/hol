@@ -31,6 +31,9 @@ class Build{
         \System\HTML::insertDiv("","Menue","");
         $this->GameNavigation->showMenue(2);
         \System\HTML::closeDiv();
+        \System\HTML::insertDiv("", "ressource");
+        $this->printRessoure();
+        \System\HTML::closeDiv();
         \System\HTML::insertDiv("", "Content", "");
         echo "<h2>Willkommen bei Hack the Legend a new Adventure</h2>".
              "<p>Aktuell befindet sich dieses Browsergame noch im Aufbau.<br/>&nbsp;<br/>".
@@ -47,15 +50,43 @@ class Build{
         switch($nr){
             case 'login'    :
                 break;
-            case 'news'     :
-                break;
             case 'info'     :
                 break;
             case 'register' :
                 break;
+            case 'news'     :
+                $this->printRessoure();
             default         :
                 break;
         }
+    }
+    public function printRessoure(){
+        $a = new \System\Daten\land($_SESSION['data'][0]['id']);
+        $data = $a->getLandData();
+        echo "<table id='table_ress'>".
+             "<tr><td width='50%' align='left'>Name</td>".
+             "<td align='right'>".$data[0]['name']."</td></tr>".
+             "<tr><td width='50%' align='left'>Freie Bauplätze</td>".
+             "<td align='right'>".$data[0]['groesse']."</td></tr>".
+             "<tr><td width='50%' align='left'>Einwohner</td>".
+             "<td align='right'>".$data[0]['einwohner']."</td></tr>".
+             "<tr><td width='50%' align='left'>'Zufriedenheit</td>".
+             "<td align='right'>".$data[0]['zf']."</td></tr>".
+             "<tr><td width='50%' align='left'>Steuern</td>".
+             "<td align='right'>".$data[0]['steuer']."</td></tr>".
+             "<tr><td width='50%' align='left'>Wachstum</td>".
+             "<td align='right'>".$data[0]['wachstum']."</td></tr>".
+             "<tr><td width='50%' align='left'>Nahrung</td>".
+             "<td align='right'>".$data[0]['nahrung']."</td></tr>".
+             "<tr><td width='50%' align='left'>Metall</td>".
+             "<td align='right'>".$data[0]['metall']."</td></tr>".
+             "<tr><td width='50%' align='left'>Oel</td>".
+             "<td align='right'>".$data[0]['oel']."</td></tr>".
+             "<tr><td width='50%' align='left'>Geld</td>".
+             "<td align='right'>".$_SESSION['data'][0]['money']."</td></tr>".
+             "<tr><td width='50%' align='left'>Nahrichten</td>".
+             "<td align='right'>0</td></tr>".
+             "</table>";
     }
 }
 

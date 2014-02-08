@@ -27,9 +27,9 @@ function Out2(){
             recenterAuto:false,
             gridX:1,
             gridY:1,
-            minimizable:false,
-            maximizable:false,
-            resizable:false,
+            minimizable:true,
+            maximizable:true,
+            resizable:true,
             top:100,
             left:50
         });

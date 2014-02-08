@@ -3,10 +3,10 @@ session_start();
 require_once 'common.php';
 $navi = new \System\HTML\Navigation();
 $logout = filter_input(INPUT_POST, 'doLogout', FILTER_SANITIZE_STRING);
-if(isset($_POST['doLogout'])){
+if(isset($logout)){
     session_destroy();
     $GLOBALS['LOG']("Ein Spieler hat sich ausgelogt!","WARN");
-    header ("Location: http://hol.spaceoflegends.de/hol/index.php");
+   header ("Location: http://hol.spaceoflegends.de/hol/index.php");
     die();
 }
 if(\System\Security::isAjax()){
@@ -69,7 +69,7 @@ if(\System\Security::isAjax()){
             $responseA->printHangarForm('ajax.php');
             break;
        default :
-            print_r($_POST);
+            print_r($post);
             break;
     }
 }

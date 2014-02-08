@@ -7,10 +7,25 @@ body{
     overflow:hidden;
 }
 #Content{
+    position: relative;
     border-radius:10px;
     padding: 5px;
     background:silver;
     height:75%;
+    width: 78%;
+    top: -310px;
+    left: 20%;
+    border:groove;
+}
+#ressource{
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    background:silver;
+    height: 300px;
+    width: 200px;
+    left: 0px;
+    top: 10px;
     border:groove;
 }
 #info{

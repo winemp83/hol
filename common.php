@@ -10,3 +10,7 @@ if(!isset($GLOBALS['DATABASE'])){
 if(!isset($GLOBALS['LOG'])){
     $LOG = new System\Logging();
 }
+if(!isset($GLOBALS['onfig'])){
+    $config = new System\Daten\config();
+    $config = $config->config;
+}

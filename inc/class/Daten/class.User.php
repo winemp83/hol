@@ -7,16 +7,20 @@ class User{
     public function __construct($user) {
         $result = $GLOBALS['DATABASE']->query("SELECT * FROM user WHERE login = '".$user."'");
         foreach($result as $data){
-            $result1 = $GLOBALS['DATABASE']->query("SELECT money FROM bank WHERE kt_inh = '".$data['id']."'");
-            foreach($result1 as $data1){
-                $data['money'] = $data1['money'];
-            }
             array_push($this->user, $data);
         }
     }
     
     public function getUserData(){
         return $this->user;
+    }
+    
+    public function getSingleUserData($what, $user){
+        $result = $GLOBALS['DATABASE']->query("SELECT ".$what." FROM user WHERE login = '".$user."'");
+        foreach($result as $data){
+            $a = $data;
+        }
+        return $a;
     }
     
     public function setUserData($field, $value){
