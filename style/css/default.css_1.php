@@ -25,9 +25,9 @@ body{
     border-radius:10px;
     padding: 5px;
     background:silver;
-    height:435px;
+    height:400px;
     width: 600px;
-    top: -420px;
+    top: -570px;
     left: 250px;
     border:groove;
     overflow: auto;
@@ -37,10 +37,10 @@ body{
     border-radius: 10px;
     padding: 5px;
     background:silver;
-    height: 200px;
+    height: 275px;
     width: 200px;
     left: 10px;
-    top: 10px;
+    top: 25px;
     border:groove;
 }
 #ressource{
@@ -48,11 +48,11 @@ body{
     border-radius: 10px;
     padding: 5px;
     background:silver;
-    height: 200px;
+    height: 275px;
     max-height: calc(50% - 10px);
     width: 200px;
     left: 10px;
-    top: 25px;
+    top: 10px;
     border:groove;
 }
 #info{
@@ -106,7 +106,7 @@ td#nav{
     background:
     url('http://hol.spaceoflegends.de/hol/style/img/table_menue.png');
     text-align: center;
-    width:100px;
+    width:200px;
 }
 
 td#nav:hover{
@@ -114,7 +114,7 @@ td#nav:hover{
     background:
     url('http://hol.spaceoflegends.de/hol/style/img/table_menue_hover_2.png');
     text-align: center;
-    width:100px;
+    width:200px;
     color:gold;
 }
 a, visit{
@@ -147,4 +147,48 @@ input.standartSubmit:hover{
     background-color: transparent;
     border: none;
     color:gold;
+}
+table#msg{
+    width: 90%;
+    height: 90%;
+    border: 1px groove black;
+    border-radius: 5px;
+    border-collapse:separate;
+    
+}
+tr#msg_overview{
+    height: 30px;
+}
+td#msg_oc_one{
+    width: 15%;
+    border:2px groove;
+    text-align:center;
+}
+td#msg_oc_three{
+    width: 20%;
+    border:2px groove;
+    text-align:center;
+}
+td#msg_oc_two{
+    border:2px groove;
+    text-align:center;
+}
+tr#msg_content{
+    height: calc(100% - 30px);
+}
+td#msg_cc_one{
+    width: 15%;
+    border:2px groove;
+    text-align:left;
+    vertical-align: top;
+}
+td#msg_cc_three{
+    width: 20%;
+    border:2px groove;
+    text-align:left;
+    vertical-align: top;
+}
+td#msg_cc_two{
+    border:2px groove;
+    text-align:center;
 }

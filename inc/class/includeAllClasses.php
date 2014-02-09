@@ -14,4 +14,5 @@ require_once PROJECT_DOCUMENT_ROOT.'/inc/class/Daten/class.land.php';
 require_once PROJECT_DOCUMENT_ROOT.'/inc/class/Daten/class.news.php';
 require_once PROJECT_DOCUMENT_ROOT.'/inc/class/game/class.Forms.php';
 require_once PROJECT_DOCUMENT_ROOT.'/inc/class/game/class.FormsCheck.php';
+require_once PROJECT_DOCUMENT_ROOT.'/inc/class/game/class.Message.php';
 require_once PROJECT_DOCUMENT_ROOT.'/inc/class/mail/class.mail.php';

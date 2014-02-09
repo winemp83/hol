@@ -18,7 +18,7 @@ function getDataforRess(){
              "<td align='right'>".$data[0]['groesse']."</td></tr>".
              "<tr><td width='50%' align='left'>Einwohner</td>".
              "<td align='right'>".$data[0]['einwohner']."</td></tr>".
-             "<tr><td width='50%' align='left'>'Zufriedenheit</td>".
+             "<tr><td width='50%' align='left'>Zufriedenheit</td>".
              "<td align='right'>".$data[0]['zf']."</td></tr>".
              "<tr><td width='50%' align='left'>Steuern</td>".
              "<td align='right'>".$data[0]['steuer']."</td></tr>".

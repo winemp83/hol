@@ -5,6 +5,7 @@ define('LNG_RESERVE',"RESERVE");
 
 //MENUE OUTGAME
 define('LNG_HOME', "Home");
+define('LNG_BACK', "zurück");
 define('LNG_REGISTER', "Registrieren");
 define('LNG_LOGIN', "Login");
 define('LNG_INFO', "Informationen");
@@ -13,6 +14,7 @@ define('LNG_NEWS', "Neuigkeiten");
 
 //MENUE INGAME
 define('LNG_LOGOUT', "Ausloggen");
+define('LNG_MSG', "Nachrichten");
 define('LNG_ALLIANZ', "Allianz");
 define('LNG_OPTION', "Einstellungen");
 define('LNG_BANK', "Bank");

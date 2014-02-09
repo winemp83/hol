@@ -29,5 +29,21 @@ class User{
                         " WHERE id = '".$this->user[0]['id']."';";
         $GLOBALS['DATABASE']->query($sql);
     }
-    
+    public static function getUsername($id){
+        if($id == 1){
+            return "System";
+        }
+        elseif($id == 2){
+            return "Regierung";
+        }
+        elseif($id == 3){
+            return "Support";
+        }
+        else{
+            $result = $GLOBALS['DATABASE']->query("SELECT (login) FROM user WHERE id='".$id."'");
+            foreach($result as $User){
+                return $User['login'];
+            }
+        }
+    }
 }

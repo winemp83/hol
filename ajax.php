@@ -17,6 +17,12 @@ if(\System\Security::isAjax()){
         case 'logout' :
             $responseA->printLogoutForm('ajax.php');
             break;
+        case 'msg':
+            $responseA->printMSGOverview();
+            break;
+        case 'main' :
+            $navi->showMenue(2);
+            break;
         case 'bank' :
             $navi->showMenue(3);
             break;

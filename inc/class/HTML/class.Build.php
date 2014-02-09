@@ -39,6 +39,10 @@ class BuildSite{
         \System\HTML::insertDiv("","Menue","");
         $this->Navigation->showMenue();
         \System\HTML::closeDiv();
+        \System\HTML::insertDiv("", "wrapper");
+        \System\HTML::insertDiv("", "menue_two");
+        echo "Hier werden mal Statistiken stehen!";
+        \System\HTML::closeDiv();
         \System\HTML::insertDiv("", "ressource");
         echo "hier werden einmal News stehen";
         \System\HTML::closeDiv();
@@ -47,6 +51,7 @@ class BuildSite{
              "<p>Aktuell befindet sich dieses Browsergame noch im Aufbau.<br/>&nbsp;<br/>".
              "Sobald das Spiel in den Beta Modus wechselt werden wir eine Globalse Bekanntmachung in all unseren Service und Angeboten veröffentlichen.<br/>".
              "Bis dahin freuen wir uns aber über jeden Besucher!</p>";
+        \System\HTML::closeDiv();
         \System\HTML::closeDiv();
         \System\HTML::printMainFooter();
     }

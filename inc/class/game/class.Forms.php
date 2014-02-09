@@ -188,4 +188,25 @@ class Forms{
         $this->jsForForms('build_shipyard');
         echo $data;
     }
+    public function printMSGOverview(){
+        $a = new \Game\Message();
+        $a->getMsg($_SESSION['data'][0]['id']);
+        $i = 0;
+        $data = '<center><table id="msg">'.
+                '<tr id="msg_overview">'.
+                '<td id="msg_oc_one">Anzahl</td>'.
+                '<td id="msg_oc_two">Inhalt</td>'.
+                '<td id="msg_oc_three">Freunde</td>'.
+                '</tr>'.
+                '<tr id="msg_content">'.
+                '<td id="msg_cc_one">';
+                 $data .= implode("<br/>", $a->MSG);
+       $data .= '</td>'.
+                '<td id="msg_cc_two"></td>'.
+                '<td id="msg_cc_three"></td>'.
+                '</tr>'.
+                '</table></center>';
+        echo $data;
+        
+    }
 }

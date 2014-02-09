@@ -17,7 +17,7 @@ class Build{
                 }
     }
     private function createMainSiteOut(){
-        \System\HTML::printMainHeader();
+        \System\HTML::printGameHeader();
         \System\HTML::addMeta("author", "Sascha Köhne");
         \System\HTML::addMeta("keywords", "Browsergame, browsergame, Spiel, Hacking, hacking");
         \System\HTML::addMeta("description", "Das neue Browsergame, entdecke die Möglichkeiten eines Hackers");
@@ -29,10 +29,12 @@ class Build{
         \System\HTML::insertImg("test.png", "LOGO");
         \System\HTML::closeDiv();
         \System\HTML::insertDiv("","Menue","");
-        $this->GameNavigation->showMenue(2);
         \System\HTML::closeDiv();
         \System\HTML::insertDiv("", "ressource");
         $this->printRessoure();
+        \System\HTML::closeDiv();
+        \System\HTML::insertDiv("", "menue_two");
+        $this->GameNavigation->showMenue(2);
         \System\HTML::closeDiv();
         \System\HTML::insertDiv("", "Content", "");
         echo "<h2>Willkommen bei Hack the Legend a new Adventure</h2>".

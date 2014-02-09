@@ -11,6 +11,15 @@ class HTML {
         echo '<meta http-equiv="content-type" content="text/html; charset=UTF-8">'."\n";
         echo '<link rel="stylesheet" type="text/css" href="'.PROJECT_HTTP_ROOT.'/style/css/default.css.php">';
     }
+    public static function printGameHeader(){
+        header('Content-Type: text/html; charset=UTF-8');
+        echo '<!DOCTYPE html>';
+        echo '<html>';
+        echo '<head>';
+        echo '<title>'.HTML_TITLE.'</title>';
+        echo '<meta http-equiv="content-type" content="text/html; charset=UTF-8">'."\n";
+        echo '<link rel="stylesheet" type="text/css" href="'.PROJECT_HTTP_ROOT.'/style/css/default.css_1.php">';
+    }
     
     public static function printMainBody($onload = null){
         echo '</head>';

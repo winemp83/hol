@@ -20,13 +20,13 @@ $(document).ready(function(){
     }
 });
 
-function getMenue(what){
+function getMenue(what, target){
     $.post("ajax.php",
     {
         what: what
     },
     function(data){
-        $("#Content").html(data);
+        $("#"+target).html(data);
     }
     );
 }
